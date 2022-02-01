@@ -23,7 +23,7 @@
 
                                 <img class="milogo" src="img/BULMA.png">
 
-                                <a href="#" class="navbar-burger">
+                                <a href="#" class="navbar-burger" id="menu-burger">
 
                                     <span></span>
                                     <span></span>
@@ -33,16 +33,29 @@
 
                             </div> <!-- fin nav-brand -->
 
-                            <div class="navbar-menu"> <!-- comienza nav-menu -->
+                            <div class="navbar-menu" id="menu"> <!-- comienza nav-menu -->
 
                                 <div class="navbar-end"> <!-- comienza nav-end -->
 
-                                        <a href="#" class="navbar-item">Home</a>
-                                        <a href="#" class="navbar-item">Examples</a>
-                                        <a href="#" class="navbar-item">Features</a>
-                                        <a href="#" class="navbar-item">Team</a>
-                                        <a href="#" class="navbar-item">Help</a>
-                                        <a href="#" class="navbar-item"> <button class="button has-background-info">View Source</button> </a>
+                                    <div class="tabs is-right">
+
+                                        <ul>
+
+    <!--class="is-active"-->                <li> <a href="#" class="navbar-item">Home</a> </li>
+
+                                            <li> <a href="#" class="navbar-item">Examples</a> </li>
+
+                                            <li> <a href="#" class="navbar-item">Features</a> </li>
+
+                                            <li> <a href="#" class="navbar-item">Team</a> </li>
+
+                                            <li> <a href="#" class="navbar-item">Help</a> </li>
+
+                                            <li> <a href="#" class="navbar-item"> <button class="button has-background-info">View Source</button> </a></li>
+
+                                        </ul>
+
+                                    </div>
 
                                 </div> <!-- fin nav-end -->
 
@@ -380,5 +393,6 @@
 
         </footer>
        
+        <script src="script.js"></script>
     </body>
 </html>
